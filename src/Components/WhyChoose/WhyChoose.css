@@ -1,0 +1,55 @@
+/* Css WhyChoose start */
+
+.WhyChoose {
+  background-color: var(--primary-color);
+  padding-bottom: 50px;
+}
+.choose-prgh-1 { 
+  color:rgb(255, 255, 255,.7);
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-weight:600 ;
+  padding-top: 65px;
+  
+}
+.choose-prgh-2 {
+  color:rgb(255, 255, 255,.7);
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+}
+.WhyChoose h1 {
+  color: white; 
+  font-size:2.7rem;
+  font-weight: bolder;
+  padding:20px 21% ;
+}
+
+.WhyChoose h5 {
+  color: white;
+  margin-top: 28px;
+
+}
+.choose-item-list {
+  margin-top: 30px;
+  margin-left: 95px;
+  margin-right: 90px;
+
+}
+
+.choose-item-list .choose-prgh-2,.choose-h5{
+    margin-left:25px;
+    margin-right: 25px;
+    margin-top: 18px;
+    
+}
+
+.choose-1,
+.choose-2,
+.choose-3,
+.choose-4 {
+  width: 90px;
+  height: 80px;
+}
+
+/* Css WhyChoose end */

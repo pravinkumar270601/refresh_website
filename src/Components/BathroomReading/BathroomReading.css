@@ -1,0 +1,22 @@
+/* Css BathroomReading cart start */
+.BathroomReading-h1{
+    color: var(--primary-color);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+    font-weight: 700;
+}
+.BathroomReading-row {
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+.BathroomReading-button {
+    font-family: "Mulish", sans-serif;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-weight: 500;
+    margin-bottom: 65px;
+}
+/* Css BathroomReading cart start */

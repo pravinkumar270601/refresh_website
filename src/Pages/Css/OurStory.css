@@ -1,0 +1,183 @@
+/* css for banner 1 */
+
+.OurStory-img1,.OurStory-img2{
+    width: 50%;
+    max-height: 588px;
+}
+.OurStory-content-div{
+    width: 745px;
+    height: 330px;
+    position:absolute;
+    top: 255px;
+    left: 310px;
+    background-color: white;
+    border-radius: 20px;
+    color: var(--primary-color);
+    padding: 33px;
+
+}
+.OurStory-heading{
+    font-weight: bold;
+    font-size: 58px;   
+    padding-left:20px ;
+    padding-right:20px ; 
+}
+.OurStory-content{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px; 
+    margin-top: 20px;
+}
+/* css end for banner1 */
+/* css start for cart */
+
+.OurStory-Imgcontainer-2{
+    min-height: 452px;
+    margin-left: 98px;
+    margin-right: 98px;
+    border-radius: 25px;
+    margin-top: 60px;
+}
+
+.OurStory-Imgcontainer-h1-2{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 25px;
+    
+}
+.OurStory-Imgcontainer-p-2{
+    color: var(--primary-color);
+    font-family: "Mulish", sans-serif;
+    font-size: 16.8px;
+    margin-bottom: 15px;
+    
+}
+
+.OurStory-ImgCart-cont-2{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 55px;
+
+}
+.OurStory-ImgCart-img-2{
+    min-height: 452px;
+}
+
+
+
+
+/* css start for our passion div */
+.our-passion-div{
+    padding-left: 98px;
+    padding-right: 98px;
+    background-color:var(--primary-color) ;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    color: white;
+}
+
+.our-passion-heading-h1{
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.our-passion-heading-h6{
+    font-size: 16.8px;
+    color:rgb(255, 251, 251,.6);
+    margin-bottom: 60px;
+}
+
+.our-passion-heading-h3{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.our-passion-heading-p{
+    font-size: 16.8px;
+    font-family: "Mulish", sans-serif;
+    color:rgb(255, 251, 251,.9);
+    font-size: 700;
+    padding-right: 60px;
+
+}
+.our-passion-h3nad-p{
+    padding-bottom: 70px;
+}
+/* css end for our passion div */
+/* css start for cart2 */
+.OurStory-Imgcontainer2-2{
+    min-height: 329px;
+    margin-left: 98px;
+    margin-right: 98px;
+    border-radius: 25px;
+    margin-top: 60px;
+}
+.OurStory-ImgCart2-img-2{
+    max-height: 329px;
+}
+
+/* css end for cart2 */
+/* css start for cart3 */
+.OurStory-Imgcontainer3-2{
+    min-height: 359px;
+    margin-left: 98px;
+    margin-right: 98px;
+    border-radius: 25px;
+    margin-top: 60px;
+}
+.OurStory-ImgCart3-cont-2{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 65px;
+
+}
+.OurStory-ImgCart3-img-2{
+    max-height: 359px;
+    width: 100%;
+}
+
+/* css end for cart3 */
+/* css for banner 2*/
+
+.OurStory2-img1,.OurStory2-img2{
+    width: 50%;
+    height: 588px;
+    margin-top: 40px;
+
+}
+.OurStory-img-div2{
+    position: relative;
+}
+.OurStory-content2-div{
+    width: 745px;
+    height: 267px;
+    position:absolute;
+    top: 135px;
+    left: 310px;
+    background-color: white;
+    border-radius: 20px;
+    color: var(--primary-color);
+    padding: 33px;
+
+}
+.OurStory-heading2{
+    font-weight: bold;
+    font-size: 44px;   
+    padding-left:20px ;
+    padding-right:20px ; 
+    margin-top: 10px;
+}
+.OurStory-button2{
+    padding: 10px 80px;
+    border-radius: 30px;
+    color: white;
+    background-color: var(--primary-color);
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* css end for banner2 */

@@ -1,0 +1,14 @@
+.Blog-h1{
+    color: var(--primary-color);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+    font-weight: 700;
+    font-size: 46px;
+}
+.Blog-row {
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}

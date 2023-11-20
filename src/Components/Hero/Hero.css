@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Foldit:wght@100;200&family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;1,700&family=Open+Sans:wght@300;400&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Css carousel start ##################################################################*/
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+  display: none;
+}
+.slider-btn {
+  cursor: pointer;
+}
+.carosel-content-1 {
+  color: var(--primary-color);
+  width: 573px;
+  height: 281px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 0;
+  margin-bottom: 166px;
+  margin-left: -104px;
+}
+.carosel-content-2 {
+  color: var(--primary-color);
+  width: 555px;
+  height: 251px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 0;
+  margin-bottom: 243px;
+  margin-left: 493px;
+}
+.carosel-content-3 {
+  color: var(--primary-color);
+  width: 573px;
+  height: 281px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 222px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carosel-content-1 h1,
+.carosel-content-2 h1 {
+  font-weight: bold;
+  font-size: 44px;
+  text-align: start;
+  padding-left: 48px;
+}
+.carosel-content-1 P,
+.carosel-content-2 P {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  text-align: start;
+  padding-left: 48px;
+}
+.carosel-content-3 h1 {
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+}
+.carosel-content-3 P {
+  font-family: "Mulish", sans-serif;
+  padding: 0 33px;
+  font-size: 18px;
+}
+.carosel-content-1 button,
+.carosel-content-2 button {
+  display: block;
+  padding: 10px 32px;
+  border-radius: 30px;
+  color: white;
+  background-color: var(--primary-color);
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  margin-left: 48px;
+}
+.carosel-content-3 button {
+  padding: 10px 32px;
+  border-radius: 30px;
+  color: white;
+  background-color: var(--primary-color);
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+}
+
+.carousel-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+.carousel-inner {
+  /* height:590px; */
+  height: 90vh;
+}
+/* .carousel-img{
+    height: 600px;
+} */
+
+/* Css carousel End  ################################################################## */

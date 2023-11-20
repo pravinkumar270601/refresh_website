@@ -1,0 +1,154 @@
+/* css for contact banner 1 */
+
+.Contect-img1{
+    max-height: 441px;
+    width: 100%;
+}
+.Contect-content-div{
+    width: 572px;
+    height: 300px;
+    position:absolute;
+    top: 240px;
+    left: 105px;
+    background-color: white;
+    border-radius: 20px;
+    color: var(--primary-color);
+    padding: 38px;
+
+}
+.Contect-heading{
+    font-weight: bold;
+    font-size: 58px;   
+    padding-right:20px ; 
+}
+.Contect-content{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px; 
+    margin-top: 20px;
+}
+/* css cintact end for banner1 */
+
+/* css for input form  */
+
+.Contect-page-form{
+    width: 55%;
+    margin: 0 auto;
+    padding-top:50px ;
+    padding-bottom:50px ;
+}
+
+
+
+.Contect-input-wrap label{
+    font-size: 20px; 
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    color: var(--primary-opacity-color);
+
+}
+.Contect-input-wrap{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+}
+
+.Contect1-input:focus+label{
+    font-size: 13px;
+    color: var(--primary-opacity-color);
+    top: 5px;
+    left: 30px;
+    padding: 0 5px 0 5px;
+}
+.Contect2-input:focus+label{
+    font-size: 13px;
+    color: var(--primary-opacity-color);
+    top: 5px;
+    left: 30px;
+    padding: 0 5px 0 5px;
+
+}
+.Contect3-input:focus+label{
+    font-size: 13px;
+    color: var(--primary-opacity-color);
+    top: 5px;
+    left: 30px;
+    padding: 0 5px 0 5px;
+}
+.Contect4-input:focus+label{
+    font-size: 13px;
+    color: var(--primary-opacity-color);
+    top: 5px;
+    left: 30px;
+    padding: 0 5px 0 5px;
+}
+.Contect1-input,.Contect2-input{
+    width: 368px;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin: 0 10px;
+    border: 2px solid var(--primary-opacity-color);
+    padding-bottom: 6px;
+    padding-top: 24px; 
+}
+.Contect3-input{
+    width: 758px;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin: 0 10px;
+    border: 2px solid var(--primary-opacity-color);
+    padding-bottom: 6px;
+    padding-top: 24px; 
+}
+.Contect4-input{
+    width: 758px;
+    height: 105px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin: 0 10px;
+    border: 2px solid var(--primary-opacity-color);
+    padding-bottom: 6px;
+    padding-top: 24px; 
+}
+
+.Contect1-input:focus {
+    outline: none;
+    border: 3px solid var(--primary-opacity-color-2);
+
+}
+.Contect2-input:focus {
+    outline: none;
+    border: 3px solid var(--primary-opacity-color-2);
+
+}
+.Contect3-input:focus {
+    outline: none;
+    border: 3px solid var(--primary-opacity-color-2);
+
+}
+.Contect4-input:focus {
+    outline: none;
+    border: 3px solid var(--primary-opacity-color-2);
+
+}
+
+.Contect-button{
+    font-family: "Mulish", sans-serif;
+    padding: 10px 48px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-bottom: 65px;
+    font-size: 19px;
+    margin-top: 45px;
+}

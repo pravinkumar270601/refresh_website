@@ -1,0 +1,12 @@
+/* css for nav */
+body{
+    padding-top: 160px;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    /* transition: transform 0.2s; */
+}

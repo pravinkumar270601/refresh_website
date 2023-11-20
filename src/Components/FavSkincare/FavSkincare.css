@@ -1,0 +1,37 @@
+
+/* Css FavSkincare add to cart start */
+.FavSkincare-h1{
+    color: var(--primary-color);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+    font-weight: 700;
+}
+.FavSkincare-row {
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+/* Css FavSkincare add to cart start */
+
+/* Css favItemslist start */
+.fav-item-list{
+    margin-top: 90px;
+}
+
+.myimg-1,.myimg-2,.myimg-3,.myimg-4{
+    width: 133px;
+    height: 33px;
+}
+
+.fav-item-list p{
+    color: var(--primary-color);
+    font-size:20px; 
+    font-weight:700;  
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right: 30px;
+   
+}
+/* Css favItemslist end */

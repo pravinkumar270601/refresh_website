@@ -1,0 +1,139 @@
+/* css for footer page start  */
+.footer{
+    background-color: var(--primary-color);
+}
+.footer-menu{
+
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+}
+.footer .footer-h1{
+  color: white;   
+  padding-top: 70px; 
+  font-weight: bold;
+  font-size: 45px;
+
+}
+.footer .footer-p1{
+    color: white;    
+    padding-top: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    color: rgb(253, 253, 253,.7);
+    font-size: 17px;
+  }
+
+.footer-input{
+    width: 376px;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(253, 253, 253,.7);
+    padding-bottom: 6px;
+    padding-top: 24px;
+    
+}
+.footer-input[type="email"]{
+    background-color: var(--primary-color);
+    caret-color: white;
+    color: white;
+}
+.footer-input:focus {
+    outline: none;
+    border: 2px solid rgb(253, 253, 253);
+
+}
+
+.input-wrap label{
+    font-size: 20px; 
+    position: absolute;
+    top: 8px;
+    left: 25px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    color: rgb(253, 253, 253,.7);
+
+}
+.input-wrap{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+}
+
+.footer-input:focus+label{
+    font-size: 13px;
+    color: rgb(253, 253, 253,.7);
+    top: 5px;
+    left: 17px;
+    padding: 0 5px 0 5px;
+}
+.footer-email-btn{
+    position: absolute;
+    color: rgb(253, 253, 253,.7);
+    left: 342px;
+    top: 17px;
+}
+.footer-heading{
+    color: white;
+    margin-bottom: 30px;
+   
+}
+.footer-links{
+    color: rgb(255, 255, 255,.7);
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    
+}
+.footer-links:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+
+.footer-p{
+    color: rgb(255, 255, 255,.7);
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    
+}
+.footer-img{
+    width: 100px;
+    height: 36px;
+}
+.footer-div{
+    margin-right: 30px;
+}
+.footer-icon{
+    color: white;
+    margin: 0 10px;
+    font-size: 23px;
+}
+.footer-hr-line{
+    margin: 0;
+    color: white;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
+.footer-copyright{
+    padding-bottom: 50px;
+}
+.footer-copyright-year{
+    margin: 0;
+    color: rgb(255, 255, 255,.7);
+    font-size: 12px;
+}
+.footer-copyright-link{
+    color: rgb(255, 255, 255,.7);
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-copyright-link:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+/* css for footer page end  */

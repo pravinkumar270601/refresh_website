@@ -1,0 +1,137 @@
+.RefreshCategory-img{
+    width: 100%;
+    max-height:441px;
+    position: relative;
+}
+.RefreshCategory-banner{
+    width: 572px;
+    height: 256px;
+    position:absolute;
+    top: 255px;
+    left: 100px;
+    background-color: white;
+    border-radius: 20px;
+    color: var(--primary-color);
+    padding: 33px;
+    
+
+}
+.RefreshCategory-heading{
+    font-weight: bold;
+    font-size: 55px;
+    
+    
+}
+.RefreshCategory-content{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    
+   
+}
+.RefreshCategory-row {
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+
+
+#RefreshCategory-col-kits{
+    width: 33.33333333%;
+}
+
+/* filter css start ###########################################################*/
+.RefreshCategory-filter-sort{
+
+    margin-left:100px ;
+    margin-right:100px ;
+    margin-top: 60px;
+    margin-bottom: 22px;
+    font-family: "Mulish", sans-serif;
+    color: var(--primary-color);
+}
+.RefreshCategory-filter{
+    padding-right: 20px;
+}
+.RefreshCategory-filter-Availability{
+    padding-right: 40px;   
+}
+.Availability-box-head{
+    font-family: "Mulish", sans-serif;
+}
+.RefreshCategory-filter-Availability-box{
+    width: 365px;
+    height: 148px;
+    border-radius: 20px;
+    /* padding: 15px; */
+}
+.RefreshCategory-Availability-box-head{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Availability-box-head-reset,.price-box-head-reset{
+    text-decoration: underline;
+    color: var(--primary-opacity-color-2);
+}
+#stock1[type=checkbox] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+}
+.stock1-div, .outofstock-div{
+    padding: 10px 21px 10px 15px;
+}
+.stock1-label,.outofstock-label{
+    padding-left: 15px;
+    font-family: "Mulish", sans-serif;
+}
+
+#outofstock{
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+}
+
+.RefreshCategory-price-box-head{
+    width: 365px;
+    border-radius: 20px;
+    color: var(--primary-opacity-color-2);
+
+}
+
+
+.RefreshCategory-price-box{
+    padding: 15px 21px;
+}
+
+.RefreshCategory-price-from-to-box{
+    padding: 15px;
+}
+.price-from[type=number]{
+    width: 140px;
+    height: 53px;
+    border-radius: 30px;
+    padding-left: 15px;
+    border: 1px solid var(--primary-opacity-color-2);
+}
+
+.price-to[type=number]{
+    width: 140px;
+    height: 53px;
+    border-radius: 30px;
+    padding-left: 15px;
+    border: 1px solid var(--primary-opacity-color-2);
+}
+.fromTo-text{
+    font-size: 18px;
+    color: var(--primary-opacity-color-2);
+}
+
+.RefreshCategory-Sortby{
+    padding-right: 20px;
+}
+.RefreshCategory-Sortby-select{
+    margin-right: 40px;   
+    border: none;
+}
