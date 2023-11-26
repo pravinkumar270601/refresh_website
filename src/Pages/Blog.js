@@ -11,7 +11,7 @@ const Blog = () => {
         <div className="row Blog-row">
           {blog_data.map((item, i) => {
             return (
-              <div className="col-lg-6 col-sm-12 ">
+              <div className="col-lg-6 col-sm-6 ">
                 <Item2
                   key={i}
                   id={item.id}

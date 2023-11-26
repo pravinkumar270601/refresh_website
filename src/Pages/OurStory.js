@@ -17,10 +17,10 @@ const OurStory = () => {
           <img className="OurStory-img2" src={bannerright} alt="" />
         </div>
         <div className="OurStory-content-div">
-          <h1 className=" OurStory-heading text-center">
+          <h1 className=" OurStory-heading">
             It's so great to meet you.
           </h1>
-          <p className="OurStory-content text-center">
+          <p className="OurStory-content">
             We bring quality men's personal care to the modern consumer. Our
             formulas are made with science-backed, clean ingredients, are 100%
             vegan, and never tested on animals.
@@ -78,7 +78,7 @@ const OurStory = () => {
         <h6 className="text-center our-passion-heading-h6">
           WE PROMISE YOU TWO THINGS:
         </h6>
-        <div className="d-flex justify-content-between our-passion-h3nad-p">
+        <div className=" our-passion-h3nad-p">
           <div>
             <h3 className="our-passion-heading-h3">Better for you.</h3>
             <p className="our-passion-heading-p">

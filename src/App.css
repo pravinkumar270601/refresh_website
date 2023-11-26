@@ -1,4 +1,5 @@
 /* css for nav */
+@media (min-width: 992px) {
 body{
     padding-top: 160px;
 }
@@ -10,3 +11,34 @@ body{
     z-index: 6;
     /* transition: transform 0.2s; */
 }
+}
+/* css for nav end*/
+/* css for all cart page start */
+.offcanvas-title{
+    color:var(--primary-color);
+    font-size: 26.4px;
+    font-weight: bold;
+  }
+  .subtotal-cart-item{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .total-price-cart-item{
+    font-size:19px ;
+    color: var(--primary-opacity-color-2);
+  }
+  .total-price-cart-item-p{
+    color: var(--primary-opacity-color-2);
+    font-size: 13.65px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+  }
+  .total-price-cart-item-btn{
+    width: 330.5px;
+    border-radius: 25px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+  }

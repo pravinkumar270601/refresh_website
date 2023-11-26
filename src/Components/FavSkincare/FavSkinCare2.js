@@ -9,7 +9,7 @@ const FavSkinCare2 = () => {
         <div className="row FavSkincare-row">
           {Fpage_send_cart.map((item, i) => {
             return (
-              <div className="col-lg-3 col-sm-12 ">
+              <div className="col-lg-3 col-sm-6 ">
                 <Item
                   key={i}
                   id={item.id}

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Foldit:wght@100;200&family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;1,700&family=Open+Sans:wght@300;400&display=swap");
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,58 +14,29 @@
 .slider-btn {
   cursor: pointer;
 }
-.carosel-content-1 {
-  color: var(--primary-color);
-  width: 573px;
-  height: 281px;
-  background-color: white;
-  border-radius: 20px;
-  margin-top: 0;
-  margin-bottom: 166px;
-  margin-left: -104px;
-}
-.carosel-content-2 {
-  color: var(--primary-color);
-  width: 555px;
-  height: 251px;
-  background-color: white;
-  border-radius: 20px;
-  margin-top: 0;
-  margin-bottom: 243px;
-  margin-left: 493px;
-}
+.carosel-content-1,
+.carosel-content-2,
 .carosel-content-3 {
   color: var(--primary-color);
-  width: 573px;
-  height: 281px;
   background-color: white;
-  border-radius: 20px;
-  margin-bottom: 222px;
-  margin-left: auto;
-  margin-right: auto;
 }
+
 .carosel-content-1 h1,
 .carosel-content-2 h1 {
   font-weight: bold;
-  font-size: 44px;
   text-align: start;
-  padding-left: 48px;
 }
 .carosel-content-1 P,
 .carosel-content-2 P {
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   text-align: start;
-  padding-left: 48px;
 }
 .carosel-content-3 h1 {
   font-weight: bold;
-  font-size: 44px;
-  text-align: center;
 }
 .carosel-content-3 P {
   font-family: "Mulish", sans-serif;
-  padding: 0 33px;
   font-size: 18px;
 }
 .carosel-content-1 button,
@@ -77,7 +48,6 @@
   background-color: var(--primary-color);
   font-family: "Mulish", sans-serif;
   font-weight: 600;
-  margin-left: 48px;
 }
 .carosel-content-3 button {
   padding: 10px 32px;
@@ -93,12 +63,119 @@
   justify-content: center;
   margin-top: 14px;
 }
-.carousel-inner {
-  /* height:590px; */
-  height: 90vh;
-}
+
 /* .carousel-img{
     height: 600px;
 } */
 
 /* Css carousel End  ################################################################## */
+
+/* Css carousel desktop start  ################################################################## */
+
+@media (min-width: 992px) {
+  .carosel-content-1 {
+    color: var(--primary-color);
+    width: 573px;
+    height: 281px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 166px;
+    margin-left: -104px;
+  }
+  .carosel-content-2 {
+    color: var(--primary-color);
+    width: 555px;
+    height: 251px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 243px;
+    margin-left: 493px;
+  }
+  .carosel-content-3 {
+    color: var(--primary-color);
+    width: 573px;
+    height: 281px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 222px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carosel-content-1 h1,
+  .carosel-content-2 h1 {
+    padding-left: 48px;
+    font-size: 44px;
+  }
+  .carosel-content-1 P,
+  .carosel-content-2 P {
+    padding-left: 48px;
+  }
+  .carosel-content-1 button,
+  .carosel-content-2 button {
+    margin-left: 48px;
+  }
+  .carosel-content-3 h1 {
+    font-size: 44px;
+    text-align: center;
+  }
+  .carosel-content-3 P {
+    padding: 0 33px;
+  }
+
+  .carousel-inner {
+    /* height:590px; */
+    height: 90vh;
+  }
+}
+
+/* Css carousel desktop end  ################################################################## */
+
+/* Css carousel mobile start  ################################################################## */
+
+@media (max-width: 991px) {
+  .carosel-content-1,
+  .carosel-content-2,
+  .carosel-content-3 {
+    color: var(--primary-color);
+    background-color: white;
+    height: 360px;
+  }
+  .carosel-content-1 h1,
+  .carosel-content-2 h1 {
+    font-size: 33px;
+  }
+  .carosel-content-3 h1 {
+    font-size: 33px;
+    text-align: start;
+  }
+  .carosel-content-3 P {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    text-align: start;
+  }
+  /* .carosel-content-3 button {
+    
+  } */
+  .carousel-caption {
+    text-align: start;
+    position: static;
+    padding: 42px 36.75px;
+  }
+  .carousel-inner {
+    /* height:590px; */
+    height: 101svh;
+  }
+  .carousel-img {
+    height: 357px;
+  }
+}
+@media (max-width: 368px) {
+  .carosel-content-3 h1 {
+    font-size: 30px;
+    text-align: start;
+  }
+}
+
+/* Css carousel mobile end  ################################################################## */

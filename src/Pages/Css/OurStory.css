@@ -1,183 +1,304 @@
 /* css for banner 1 */
 
-.OurStory-img1,.OurStory-img2{
-    width: 50%;
-    max-height: 588px;
+.OurStory-content-div {
+  background-color: white;
+  color: var(--primary-color);
 }
-.OurStory-content-div{
-    width: 745px;
-    height: 330px;
-    position:absolute;
-    top: 255px;
-    left: 310px;
-    background-color: white;
-    border-radius: 20px;
-    color: var(--primary-color);
-    padding: 33px;
-
+.OurStory-heading {
+  font-weight: bold;
 }
-.OurStory-heading{
-    font-weight: bold;
-    font-size: 58px;   
-    padding-left:20px ;
-    padding-right:20px ; 
-}
-.OurStory-content{
-    font-family: "Mulish", sans-serif;
-    font-size: 18px; 
-    margin-top: 20px;
+.OurStory-content {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
 }
 /* css end for banner1 */
 /* css start for cart */
 
-.OurStory-Imgcontainer-2{
-    min-height: 452px;
-    margin-left: 98px;
-    margin-right: 98px;
-    border-radius: 25px;
-    margin-top: 60px;
+.OurStory-Imgcontainer-2 {
+  min-height: 452px;
 }
 
-.OurStory-Imgcontainer-h1-2{
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: 44px;
-    margin-bottom: 25px;
-    
+.OurStory-Imgcontainer-h1-2 {
+  color: var(--primary-color);
+  font-weight: 700;
 }
-.OurStory-Imgcontainer-p-2{
-    color: var(--primary-color);
-    font-family: "Mulish", sans-serif;
-    font-size: 16.8px;
-    margin-bottom: 15px;
-    
+.OurStory-Imgcontainer-p-2 {
+  color: var(--primary-color);
+  font-family: "Mulish", sans-serif;
+  font-size: 16.8px;
+  margin-bottom: 15px;
 }
-
-.OurStory-ImgCart-cont-2{
-    margin-top: 60px;
-    margin-left: 60px;
-    margin-right: 55px;
-
-}
-.OurStory-ImgCart-img-2{
-    min-height: 452px;
-}
-
-
 
 
 /* css start for our passion div */
-.our-passion-div{
-    padding-left: 98px;
-    padding-right: 98px;
-    background-color:var(--primary-color) ;
-    margin-bottom: 40px;
-    margin-top: 60px;
-    color: white;
+.our-passion-div {
+  background-color: var(--primary-color);
+  color: white;
 }
 
-.our-passion-heading-h1{
-    font-size: 44px;
-    font-weight: 700;
-    padding-top: 60px;
-    padding-bottom: 20px;
+.our-passion-heading-h1 {
+  font-weight: 700;
 }
-.our-passion-heading-h6{
-    font-size: 16.8px;
-    color:rgb(255, 251, 251,.6);
-    margin-bottom: 60px;
+.our-passion-heading-h6 {
+  font-size: 16.8px;
+  color: rgb(255, 251, 251, 0.6);
+  margin-bottom: 60px;
 }
 
-.our-passion-heading-h3{
-    font-size: 21px;
-    font-weight: 600;
-    margin-bottom: 20px;
+.our-passion-heading-h3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.our-passion-heading-p{
-    font-size: 16.8px;
-    font-family: "Mulish", sans-serif;
-    color:rgb(255, 251, 251,.9);
-    font-size: 700;
-    padding-right: 60px;
-
+.our-passion-heading-p {
+  font-size: 16.8px;
+  font-family: "Mulish", sans-serif;
+  color: rgb(255, 251, 251, 0.9);
+  font-size: 700;
+  padding-right: 60px;
 }
-.our-passion-h3nad-p{
-    padding-bottom: 70px;
+.our-passion-h3nad-p {
+  padding-bottom: 70px;
 }
 /* css end for our passion div */
 /* css start for cart2 */
-.OurStory-Imgcontainer2-2{
-    min-height: 329px;
-    margin-left: 98px;
-    margin-right: 98px;
-    border-radius: 25px;
-    margin-top: 60px;
+.OurStory-Imgcontainer2-2 {
+  min-height: 329px;
 }
-.OurStory-ImgCart2-img-2{
-    max-height: 329px;
-}
+
 
 /* css end for cart2 */
 /* css start for cart3 */
-.OurStory-Imgcontainer3-2{
-    min-height: 359px;
-    margin-left: 98px;
-    margin-right: 98px;
-    border-radius: 25px;
-    margin-top: 60px;
+.OurStory-Imgcontainer3-2 {
+  min-height: 359px;
 }
-.OurStory-ImgCart3-cont-2{
-    margin-top: 60px;
-    margin-left: 60px;
-    margin-right: 65px;
 
-}
-.OurStory-ImgCart3-img-2{
-    max-height: 359px;
-    width: 100%;
+.OurStory-ImgCart3-img-2 {
+  max-height: 359px;
+  width: 100%;
 }
 
 /* css end for cart3 */
 /* css for banner 2*/
 
-.OurStory2-img1,.OurStory2-img2{
+.OurStory-content2-div {
+  background-color: white;
+  color: var(--primary-color);
+}
+.OurStory-heading2 {
+  font-weight: bold;
+}
+.OurStory-button2 {
+  padding: 10px 80px;
+  border-radius: 30px;
+  color: white;
+  background-color: var(--primary-color);
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+  border: none;
+  margin-top: 20px;
+}
+/* css end for banner2 */
+
+/* css for ourstory page desktop start ################################ */
+
+@media (min-width: 992px) {
+  .OurStory-img1,
+  .OurStory-img2 {
+    width: 50%;
+    max-height: 588px;
+  }
+  .OurStory2-img1,
+  .OurStory2-img2 {
     width: 50%;
     height: 588px;
     margin-top: 40px;
-
-}
-.OurStory-img-div2{
+  }
+  .OurStory-img-div2 {
     position: relative;
-}
-.OurStory-content2-div{
+  }
+  .OurStory-content-div {
+    width: 745px;
+    height: 330px;
+    position: absolute;
+    top: 255px;
+    left: 310px;
+    border-radius: 20px;
+    padding: 33px;
+  }
+
+  .OurStory-content2-div {
     width: 745px;
     height: 267px;
-    position:absolute;
+    position: absolute;
     top: 135px;
     left: 310px;
-    background-color: white;
     border-radius: 20px;
-    color: var(--primary-color);
     padding: 33px;
-
-}
-.OurStory-heading2{
-    font-weight: bold;
-    font-size: 44px;   
-    padding-left:20px ;
-    padding-right:20px ; 
+  }
+  .OurStory-heading {
+    font-size: 58px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .OurStory-heading2 {
+    font-size: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 10px;
-}
-.OurStory-button2{
-    padding: 10px 80px;
-    border-radius: 30px;
-    color: white;
-    background-color: var(--primary-color);
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    margin-right: 10px;
-    border: none;
-    margin-top: 20px;
+  }
+  .OurStory-Imgcontainer-2 {
+    margin-left: 98px;
+    margin-right: 98px;
+    border-radius: 25px;
+    margin-top: 60px;
+  }
+  .OurStory-Imgcontainer-h1-2 {
+    font-size: 44px;
+    margin-bottom: 25px;
+  }
+  .OurStory-ImgCart-cont-2 {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 55px;
+  }
+  .our-passion-div {
+    padding-left: 98px;
+    padding-right: 98px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+  .our-passion-heading-h1 {
+    font-size: 44px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  .our-passion-h3nad-p{
+    display: flex;
+    justify-content: space-between;
+  }
+  .OurStory-Imgcontainer2-2 {
+    margin-left: 98px;
+    margin-right: 98px;
+    border-radius: 25px;
+    margin-top: 60px;
+  }
+  .OurStory-ImgCart-img-2 {
+    min-height: 452px;
+  }
+  .OurStory-ImgCart2-img-2 {
+    max-height: 329px;
+  }
+  .OurStory-Imgcontainer3-2 {
+    margin-left: 98px;
+    margin-right: 98px;
+    border-radius: 25px;
+    margin-top: 60px;
+  }
+  .OurStory-ImgCart3-cont-2 {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 65px;
+  }
+  .OurStory-content{
+    text-align: center;
+  }
 }
 
-/* css end for banner2 */
+/* css for ourstory page desktop end */
+
+/* css for ourstory page Mobile start ####################################*/
+@media (max-width: 991px) {
+  .OurStory-img1,
+  .OurStory-img2 {
+    width: 50%;
+    height: 357px;
+  }
+  .OurStory2-img1,
+  .OurStory2-img2 {
+    width: 50%;
+    height: 357px;
+    margin-top: 20px;
+  }
+  .OurStory-content-div {
+    padding: 42px 36.75px;
+    height: 360px;
+  }
+  .OurStory-content2-div {
+    padding: 42px 36.75px;
+    height: 360px;
+  }
+  .OurStory-heading {
+    font-size: 38px;
+    text-align: start;
+  }
+  .OurStory-heading2 {
+    font-size: 33px;
+  }
+  .OurStory-Imgcontainer-2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+  }
+  .OurStory-Imgcontainer-h1-2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  .OurStory-ImgCart-cont-2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 27px;
+  }
+  .our-passion-div {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .our-passion-heading-h1 {
+    font-size: 33px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 15.75;
+    padding-right: 15.75;
+    margin: 0 20px;
+  }
+  .our-passion-h3nad-p{
+    display: block;
+  }
+  .OurStory-ImgCart-img-2 {
+    min-height: 312px;
+  }
+  .OurStory-ImgCart2-img-2 {
+    min-height: 312px;
+  }
+  .OurStory-Imgcontainer2-2 {
+    margin: 0 15.75px;
+  }
+  .OurStory-Imgcontainer3-2 {
+    margin-left: 15.75px;
+    margin-right: 15.75px;
+    margin-top: 30px;
+  }
+  .OurStory-ImgCart3-cont-2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 27px;
+  }
+  .OurStory-Imgcontainer-h1-2{
+    font-size: 33px;
+  }
+  .OurStory-Imgcontainer-h1-2{
+    font-size: 33px;
+  }
+  .OurStory-content{
+    text-align: start;
+  }
+
+
+}
+
+/* css for ourstory page Mobile end */

@@ -4,44 +4,27 @@
   background-color: var(--primary-color);
   padding-bottom: 50px;
 }
-.choose-prgh-1 { 
-  color:rgb(255, 255, 255,.7);
+.WhyChoose h1 {
+  color: white;
+  font-weight: bolder;
+}
+.choose-prgh-1 {
+  color: rgb(255, 255, 255, 0.7);
   font-size: 16px;
   font-family: "Mulish", sans-serif;
-  font-weight:600 ;
+  font-weight: 600;
   padding-top: 65px;
-  
 }
 .choose-prgh-2 {
-  color:rgb(255, 255, 255,.7);
+  color: rgb(255, 255, 255, 0.7);
   font-size: 17px;
   font-family: "Mulish", sans-serif;
   font-weight: 500;
-}
-.WhyChoose h1 {
-  color: white; 
-  font-size:2.7rem;
-  font-weight: bolder;
-  padding:20px 21% ;
 }
 
 .WhyChoose h5 {
   color: white;
   margin-top: 28px;
-
-}
-.choose-item-list {
-  margin-top: 30px;
-  margin-left: 95px;
-  margin-right: 90px;
-
-}
-
-.choose-item-list .choose-prgh-2,.choose-h5{
-    margin-left:25px;
-    margin-right: 25px;
-    margin-top: 18px;
-    
 }
 
 .choose-1,
@@ -53,3 +36,39 @@
 }
 
 /* Css WhyChoose end */
+
+/* Css WhyChoose desktop start  */
+@media (min-width: 992px) {
+  .WhyChoose h1 {
+    font-size: 2.7rem;
+    padding: 20px 21%;
+  }
+  .choose-item-list .choose-prgh-2,
+  .choose-h5 {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 18px;
+  }
+  .choose-item-list {
+    margin-top: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+  }
+}
+
+/* Css WhyChoose desktop end  */
+
+/* Css WhyChoose mobile start  */
+@media (max-width: 991px) {
+  .WhyChoose h1 {
+    font-size: 1.7rem;
+    padding: 0 15px;
+  }
+  .choose-item-list {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+/* Css WhyChoose mobile end  */

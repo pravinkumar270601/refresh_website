@@ -59,7 +59,7 @@ function Hero(props) {
               <Carousel.Caption className={`carosel-content-${item.id}`}>
                 <h1 className="pt-4">{item.caption}</h1>
                 <p>{item.description}</p>
-                <button className="text-start ">{item.btn}</button>
+                <button className="">{item.btn}</button>
               </Carousel.Caption>
             </Carousel.Item>
           ))}

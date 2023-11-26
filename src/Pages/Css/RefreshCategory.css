@@ -1,43 +1,26 @@
+
+/* css start for category page */
 .RefreshCategory-img{
     width: 100%;
-    max-height:441px;
-    position: relative;
+    
 }
 .RefreshCategory-banner{
-    width: 572px;
-    height: 256px;
-    position:absolute;
-    top: 255px;
-    left: 100px;
     background-color: white;
-    border-radius: 20px;
     color: var(--primary-color);
-    padding: 33px;
-    
-
 }
+
 .RefreshCategory-heading{
     font-weight: bold;
     font-size: 55px;
-    
-    
+      
 }
 .RefreshCategory-content{
     font-family: "Mulish", sans-serif;
-    font-size: 18px;
-    
-   
-}
-.RefreshCategory-row {
-    margin-left: 75px;
-    margin-right: 70px;
-    margin-bottom: 60px;
+    font-size: 18px;  
 }
 
 
-#RefreshCategory-col-kits{
-    width: 33.33333333%;
-}
+/* css end for category page */
 
 /* filter css start ###########################################################*/
 .RefreshCategory-filter-sort{
@@ -99,8 +82,6 @@
     color: var(--primary-opacity-color-2);
 
 }
-
-
 .RefreshCategory-price-box{
     padding: 15px 21px;
 }
@@ -135,3 +116,58 @@
     margin-right: 40px;   
     border: none;
 }
+/* filter css end ###########################################################*/
+
+
+/* css start for category page desktop view */
+
+@media (min-width: 992px) {
+    .RefreshCategory-img{
+        width: 100%;
+        max-height:441px;
+        position: relative;
+    }
+    .RefreshCategory-banner{
+        width: 572px;
+        height: 256px;
+        position:absolute;
+        top: 255px;
+        left: 100px;
+        border-radius: 20px;
+        padding: 33px;
+    }
+    .my-filter-display-or-not{
+        display: block;
+        
+      }
+      .RefreshCategory-row {
+        margin-left: 75px;
+        margin-right: 70px;
+        margin-bottom: 60px;
+    }
+    #RefreshCategory-col-kits{
+        width: 33.33333333%;
+    }
+
+}
+
+/* css start for category page desktop view */
+
+/* css start for category page Mobile view */
+
+@media (max-width: 991px) {
+    
+    .RefreshCategory-img{
+        height: 357px;
+    }
+    .RefreshCategory-banner{
+    padding: 42px 36.75px;
+    height: 360px;
+  }
+  .my-filter-display-or-not{
+    display: none;
+    
+  }
+}
+
+/* css start for category page Mobile view */

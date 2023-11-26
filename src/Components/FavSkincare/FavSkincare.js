@@ -15,7 +15,7 @@ const FavSkincare = () => {
         <div className="row FavSkincare-row">
           {favorite_skincare.map((item, i) => {
             return (
-              <div className="col-lg-3 col-sm-12 ">
+              <div className="col-lg-3 col-sm-6 ">
                 <Item
                   key={i}
                   id={item.id}

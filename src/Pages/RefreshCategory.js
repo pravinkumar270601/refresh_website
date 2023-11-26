@@ -29,6 +29,7 @@ const RefreshCategory = (props) => {
           return null;
         }
       })}
+      <div className="my-filter-display-or-not">
       <div className="RefreshCategory-filter-sort d-flex justify-content-between">
         <div className="d-flex justify-content-between">
           <div className="RefreshCategory-filter">Filter:</div>
@@ -130,6 +131,7 @@ const RefreshCategory = (props) => {
           <div>product</div>
         </div>
       </div>
+      </div>
 
       <div className=" container-fluid">
         <div className="row RefreshCategory-row">
@@ -137,7 +139,7 @@ const RefreshCategory = (props) => {
             if (props.category === item.category) {
               return (
                 <div
-                  className="col-lg-3 col-sm-12 "
+                  className="col-lg-3 col-sm-6 "
                   id={`RefreshCategory-col-${item.category}`}
                 >
                   <Item

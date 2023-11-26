@@ -21,8 +21,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-menu container-fluid">
-        <div className="row">
-          <div className="col footer-div">
+        <div className="footer-menu-div">
+          <div className=" footer-div ">
             <h5 className="footer-heading">Shop</h5>
             <p>
               <Link to="hair" className="footer-links">
@@ -45,38 +45,40 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-          <div className="col footer-div">
+          <div className=" footer-div">
             <h5 className="footer-heading">About </h5>
             <p>
-              <Link to="hair" className="footer-links">
+              <Link to="ourstory" className="footer-links">
                 Our story
               </Link>
             </p>
             <p>
-              <Link to="body" className="footer-links">
+              <Link to="" className="footer-links">
                 Shipping and returns
               </Link>
             </p>
             <p>
-              <Link to="face" className="footer-links">
+              <Link to="contact" className="footer-links">
                 Contact
               </Link>
             </p>
             <p>
-              <Link to="kits" className="footer-links">
+              <Link to="blog" className="footer-links">
                 Blog
               </Link>
             </p>
           </div>
-          <div className="col footer-div">
+          <div className=" footer-div">
             <h5 className="footer-heading">Our mission</h5>
             <p className="footer-p">
               We make the internet's favorite men's products. No harmful
               chemicals and made in the USA.
             </p>
           </div>
-          <div className="col footer-div">
+          <div className=" footer-div">
+            <Link to="/">
             <img src={logo} className="footer-img" alt="logo" />
+            </Link>
           </div>
         </div>
       </div>

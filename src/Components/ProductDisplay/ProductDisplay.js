@@ -7,9 +7,9 @@ import Cart from "../../Pages/Cart";
 const ProductDisplay = (props) => {
   const { product } = props;
   const [AddCount, SetAddCount] = useState(0);
-  const { addToCart } = useContext(RefreshContext);
+  const { addToCart, totalRegularPrice } = useContext(RefreshContext);
   return (
-    <div className="ProductDisplays d-flex">
+    <div className="ProductDisplays">
       <div className="ProductDisplays-left">
         <div className="ProductDisplays-imgs">
           <img src={product.src1} alt="" className="ProductDisplays-img"></img>
@@ -59,7 +59,7 @@ const ProductDisplay = (props) => {
             data-bs-target="#offcanvasWithBothOptions"
             aria-controls="offcanvasWithBothOptions"
             onClick={() => {
-              addToCart(product.id);
+              addToCart(product.id, AddCount);
             }}
           >
             {product.button}
@@ -83,8 +83,30 @@ const ProductDisplay = (props) => {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body">
-              <Cart />
+            <div class="offcanvas-body d-flex flex-column justify-content-between">
+              <div>
+                <Cart />
+              </div>
+              <div>
+                <hr></hr>
+                <div className="d-flex justify-content-between">
+                  <div className="subtotal-cart-item">Subtotal</div>
+                  <div className="total-price-cart-item">
+                    ${totalRegularPrice}.00 USD
+                  </div>
+                </div>
+                <p className="total-price-cart-item-p">
+                  Taxes and shipping calculated at checkout
+                </p>
+                <div className="text-center">
+                  <div
+                    type="button"
+                    class="btn btn-primary total-price-cart-item-btn"
+                  >
+                    Check out
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

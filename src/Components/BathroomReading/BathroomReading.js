@@ -13,7 +13,7 @@ const BathroomReading = () => {
         <div className="row BathroomReading-row">
           {Bathroom_Reading.map((item, i) => {
             return (
-              <div className="col-lg-4 col-sm-12 ">
+              <div className="col-lg-4 col-sm-6 ">
                 <Item2
                   key={i}
                   id={item.id}

@@ -1,25 +1,9 @@
 
 /* CSS FOR PRODUCT PAGE START  */
-.ProductDisplays-left{
-    width: 50%;
-    margin-top: 60px;
-    margin-left: 90px;
-    margin-bottom: 60px;
-}
-.ProductDisplays-right{
-    width: 50%;
-    margin-top: 60px;
-    margin-right: 90px;
-    margin-bottom: 60px;
-}
-.ProductDisplays-img{
-    width: 519px;
-    height: 519px;
 
-    border-radius: 25px;
-}
+
+
 .ProductDisplays-heading{
-    font-size: 44px;
     color:var(--primary-color) ;
     font-weight:700;
     margin-bottom:20px;
@@ -74,7 +58,7 @@
     width: 80%;
     height: 47px;
     border-radius: 25Px;
-    border: 1px solid var(--primary-color);
+    border: none;
     font-family: "Mulish", sans-serif;
     color:white ;
     margin-bottom: 20px;
@@ -91,4 +75,60 @@
     color:var(--primary-opacity-color-2) ;
     
 }
-/* CSS FOR PRODUCT PAGE END  */
+/* CSS FOR PRODUCT PAGE END  */ 
+
+/* CSS FOR PRODUCT PAGE DESKTOP START  */
+
+@media (min-width: 992px) {
+    .ProductDisplays{
+        display: flex;
+    }
+    .ProductDisplays-left{
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 90px;
+        margin-bottom: 60px;
+    }
+    .ProductDisplays-right{
+        width: 50%;
+        margin-top: 60px;
+        margin-right: 90px;
+        margin-bottom: 60px;
+    }
+    .ProductDisplays-img{
+        width: 519px;
+        height: 519px;
+        border-radius: 25px;
+    }
+    
+.ProductDisplays-heading{
+    font-size: 44px;}
+
+}
+/* CSS FOR PRODUCT PAGE DESKTOP END  */
+
+
+/* CSS FOR PRODUCT PAGE MOBILE START  */
+
+@media (max-width: 991px) {
+    .ProductDisplays-left{
+        padding: 45px 15.75px;
+    }
+    .ProductDisplays-right{
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15PX;
+        margin-bottom: 30px;
+    }
+    .ProductDisplays-img{
+        width: 100%;
+        max-height: 519px;
+        border-radius: 25px;
+        
+    }
+    .ProductDisplays-heading{
+        font-size: 33px;}
+}
+
+
+/* CSS FOR PRODUCT PAGE MOBILE END  */

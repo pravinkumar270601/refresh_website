@@ -17,7 +17,7 @@ const Contect = () => {
       </div>
 
       <div className="Contect-page-form">
-        <div className="d-flex justify-content-center">
+        <div className="Contect-page-name-email-div">
           <div className="Contect-input-wrap">
             <input type="text" className="Contect1-input" required />
             <label>Name</label>
@@ -29,21 +29,22 @@ const Contect = () => {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center">
+        <div className="Contect-page-name-email-div">
           <div className="Contect-input-wrap">
             <input type="text" className="Contect3-input" required />
             <label>Phone number</label>
           </div>
         </div>
 
-        <div className="d-flex justify-content-center">
+        <div className="Contect-page-name-email-div">
           <div className="Contect-input-wrap">
             <input type="text" className="Contect4-input" required />
             <label>Comment</label>
           </div>
         </div>
-
-        <button type="button" class="btn btn-primary Contect-button ">send</button>
+        <div className="Contect-page-button-div">
+          <button type="button" class="btn btn-primary Contect-button  ">send</button>
+        </div>
       </div>
     </div>
   );

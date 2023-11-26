@@ -4,13 +4,13 @@ import { RefreshContext } from "../../Context/RefreshContext";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { AiOutlinePlus, AiOutlineLine } from "react-icons/ai";
 const CartItem = () => {
-  const { all_product_data, cartItems, removeFromCart } =
+  const { all_product_data, cartItems, removeFromCart,addToCart } =
     useContext(RefreshContext);
   return (
     <div className="CartItem">
       <div className="d-flex justify-content-between">
-        <div>PRODUCT</div>
-        <div>TOTAL</div>
+        <div className="CartItem-prct-tol">PRODUCT</div>
+        <div className="CartItem-prct-tol">TOTAL</div>
       </div>
       <hr />
       <div>
@@ -36,11 +36,17 @@ const CartItem = () => {
                   <div className="d-flex justify-content-between CartItem-quantity-remove-div ">
                     <div className="d-flex  justify-content-between CartItem-plus-minuse-div">
                       <div>
-                        <AiOutlineLine type="button" />
+                        <AiOutlineLine type="button" 
+                        onClick={() => {
+                          removeFromCart(e.id);
+                        }}/>
                       </div>
                       <div>{cartItems[e.id]}</div>
                       <div>
-                        <AiOutlinePlus type="button" />
+                        <AiOutlinePlus type="button" 
+                        onClick={() => {
+                          addToCart(e.id) ;
+                        } }/>
                       </div>
                     </div>
                     <div>

@@ -43,6 +43,20 @@ const RefreshContextProvider = (props) => {
     return totalCartItem;
   };
 
+    // Calculate total regular price
+    const totalRegularPrice = all_product_data.reduce((total, product) => {
+      if (cartItems[product.id] > 0) {
+        const regularPriceWithDollarSign = product.RegularPrice;
+        const regularPriceWithoutDollarSign = regularPriceWithDollarSign.replace(
+          "$",
+          ""
+        );
+        const regularPriceAsNumber = parseFloat(regularPriceWithoutDollarSign);
+        return total + regularPriceAsNumber * cartItems[product.id];
+      }
+      return total;
+    }, 0);
+
   return (
     <RefreshContext.Provider
       value={{
@@ -53,6 +67,7 @@ const RefreshContextProvider = (props) => {
         addToCart,
         removeFromCart,
         getTotalCartItems,
+        totalRegularPrice,
       }}
     >
       {props.children}
