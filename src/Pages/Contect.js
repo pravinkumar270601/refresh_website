@@ -43,7 +43,9 @@ const Contect = () => {
           </div>
         </div>
         <div className="Contect-page-button-div">
-          <button type="button" class="btn btn-primary Contect-button  ">send</button>
+          <button type="button" class="btn btn-primary Contect-button  ">
+            send
+          </button>
         </div>
       </div>
     </div>

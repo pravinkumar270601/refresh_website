@@ -102,11 +102,20 @@ const Navbar = () => {
               <hr></hr>
               <div className="d-flex justify-content-between">
                 <div className="subtotal-cart-item">Subtotal</div>
-                <div className="total-price-cart-item">${totalRegularPrice}.00 USD</div>
+                <div className="total-price-cart-item">
+                  ${totalRegularPrice}.00 USD
+                </div>
               </div>
-              <p className="total-price-cart-item-p">Taxes and shipping calculated at checkout</p>
+              <p className="total-price-cart-item-p">
+                Taxes and shipping calculated at checkout
+              </p>
               <div className="text-center">
-              <div type="button" class="btn btn-primary total-price-cart-item-btn">Check out</div>
+                <div
+                  type="button"
+                  class="btn btn-primary total-price-cart-item-btn"
+                >
+                  Check out
+                </div>
               </div>
             </div>
           </div>

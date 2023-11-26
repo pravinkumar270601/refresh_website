@@ -17,9 +17,7 @@ const OurStory = () => {
           <img className="OurStory-img2" src={bannerright} alt="" />
         </div>
         <div className="OurStory-content-div">
-          <h1 className=" OurStory-heading">
-            It's so great to meet you.
-          </h1>
+          <h1 className=" OurStory-heading">It's so great to meet you.</h1>
           <p className="OurStory-content">
             We bring quality men's personal care to the modern consumer. Our
             formulas are made with science-backed, clean ingredients, are 100%
@@ -122,47 +120,47 @@ const OurStory = () => {
         </div>
       </div>
 
-      <div className="card mb-3 OurStory-Imgcontainer3-2 " >
-          <div className="row ">
-            <div className="col-md-6 col-sm-12 order-md-2 ">
-              <img
-                src={ourstory_card3}
-                className="img-fluid  rounded-end-4 OurStory-ImgCart3-img-2"
-                alt="no images"
-
-              />
-            </div>
-            <div className="col-md-6 col-sm-12 order-md-1">
-              <div className="card-body OurStory-ImgCart3-cont-2 ">
-                <h1 className="card-title OurStory-Imgcontainer-h1-2">Our environmental commitment.</h1>
-                <p className="card-text OurStory-Imgcontainer-p-2">
-                Our packaging materials are 100% recyclable, and our products are made right here in the USA, eliminating unnecessary transport emissions.
-                </p>
-              </div>
+      <div className="card mb-3 OurStory-Imgcontainer3-2 ">
+        <div className="row ">
+          <div className="col-md-6 col-sm-12 order-md-2 ">
+            <img
+              src={ourstory_card3}
+              className="img-fluid  rounded-end-4 OurStory-ImgCart3-img-2"
+              alt="no images"
+            />
+          </div>
+          <div className="col-md-6 col-sm-12 order-md-1">
+            <div className="card-body OurStory-ImgCart3-cont-2 ">
+              <h1 className="card-title OurStory-Imgcontainer-h1-2">
+                Our environmental commitment.
+              </h1>
+              <p className="card-text OurStory-Imgcontainer-p-2">
+                Our packaging materials are 100% recyclable, and our products
+                are made right here in the USA, eliminating unnecessary
+                transport emissions.
+              </p>
             </div>
           </div>
-        </div>
-
-        <div className="OurStory-banner  ">
-          <div className="OurStory-img-div2">
-        <div className=" d-flex">
-          <img className="OurStory2-img1" src={banner2left} alt="" />
-          <img className="OurStory2-img2" src={banner2right} alt="" />
-        </div>
-        <div className="OurStory-content2-div">
-          <h1 className=" OurStory-heading2 text-center">
-          Shop the internet's favorite products.
-          </h1>
-          <div className="text-center">
-          <button className="OurStory-button2 ">For body</button>
-          <button className="OurStory-button2 ">For hair</button>
-          </div>
-        </div>
         </div>
       </div>
 
-
-
+      <div className="OurStory-banner  ">
+        <div className="OurStory-img-div2">
+          <div className=" d-flex">
+            <img className="OurStory2-img1" src={banner2left} alt="" />
+            <img className="OurStory2-img2" src={banner2right} alt="" />
+          </div>
+          <div className="OurStory-content2-div">
+            <h1 className=" OurStory-heading2 text-center">
+              Shop the internet's favorite products.
+            </h1>
+            <div className="text-center">
+              <button className="OurStory-button2 ">For body</button>
+              <button className="OurStory-button2 ">For hair</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

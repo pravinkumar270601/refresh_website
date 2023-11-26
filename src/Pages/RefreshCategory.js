@@ -30,107 +30,111 @@ const RefreshCategory = (props) => {
         }
       })}
       <div className="my-filter-display-or-not">
-      <div className="RefreshCategory-filter-sort d-flex justify-content-between">
-        <div className="d-flex justify-content-between">
-          <div className="RefreshCategory-filter">Filter:</div>
-          <div class="dropdown">
-            <p
-              class=" dropdown-toggle RefreshCategory-filter-Availability"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Availability
-            </p>
-            <ul class="dropdown-menu RefreshCategory-filter-Availability-box ">
-              <li>
-                <div className="RefreshCategory-Availability-box-head d-flex justify-content-between">
-                  <div className="Availability-box-head">0 selected</div>
-                  <div className="Availability-box-head-reset">
-                    <a>Reset</a>
+        <div className="RefreshCategory-filter-sort d-flex justify-content-between">
+          <div className="d-flex justify-content-between">
+            <div className="RefreshCategory-filter">Filter:</div>
+            <div class="dropdown">
+              <p
+                class=" dropdown-toggle RefreshCategory-filter-Availability"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Availability
+              </p>
+              <ul class="dropdown-menu RefreshCategory-filter-Availability-box ">
+                <li>
+                  <div className="RefreshCategory-Availability-box-head d-flex justify-content-between">
+                    <div className="Availability-box-head">0 selected</div>
+                    <div className="Availability-box-head-reset">
+                      <a>Reset</a>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li className="d-flex align-items-center stock1-div">
-                <input type="checkbox" id="stock1" name="stock" value="" />
-                <label for="stock1 " className="stock1-label">
-                  {" "}
-                  In stock(7)
-                </label>
-              </li>
-              <li className="d-flex align-items-center outofstock-div">
-                <input
-                  type="checkbox"
-                  id="outofstock"
-                  name="outofstock"
-                  value=""
-                />
-                <label for="outofstock" className="outofstock-label">
-                  Out of stock (0)
-                </label>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p
-              class=" dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              price
-            </p>
-            <ul class="dropdown-menu RefreshCategory-price-box-head">
-              <li>
-                <div className="RefreshCategory-price-box d-flex justify-content-between">
-                  <div className="price-box-head">
-                    The highest price is $36.00
-                  </div>
-                  <div className="price-box-head-reset">
-                    <a>Reset</a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li>
-                <div className="d-flex justify-content-between align-items-center RefreshCategory-price-from-to-box">
-                  <div className="fromTo-text">$</div>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li className="d-flex align-items-center stock1-div">
+                  <input type="checkbox" id="stock1" name="stock" value="" />
+                  <label for="stock1 " className="stock1-label">
+                    {" "}
+                    In stock(7)
+                  </label>
+                </li>
+                <li className="d-flex align-items-center outofstock-div">
                   <input
-                    type="number"
-                    className=" price-from"
-                    placeholder="From"
+                    type="checkbox"
+                    id="outofstock"
+                    name="outofstock"
+                    value=""
                   />
-                  <div className=""></div>
-                  <div className="fromTo-text">$</div>
-                  <input type="number" className="price-to" placeholder="To" />
-                </div>
-              </li>
-            </ul>
+                  <label for="outofstock" className="outofstock-label">
+                    Out of stock (0)
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p
+                class=" dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                price
+              </p>
+              <ul class="dropdown-menu RefreshCategory-price-box-head">
+                <li>
+                  <div className="RefreshCategory-price-box d-flex justify-content-between">
+                    <div className="price-box-head">
+                      The highest price is $36.00
+                    </div>
+                    <div className="price-box-head-reset">
+                      <a>Reset</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <div className="d-flex justify-content-between align-items-center RefreshCategory-price-from-to-box">
+                    <div className="fromTo-text">$</div>
+                    <input
+                      type="number"
+                      className=" price-from"
+                      placeholder="From"
+                    />
+                    <div className=""></div>
+                    <div className="fromTo-text">$</div>
+                    <input
+                      type="number"
+                      className="price-to"
+                      placeholder="To"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className="d-flex justify-content-between">
-          <div className="RefreshCategory-Sortby">Sort by:</div>
-          <div>
-            <select className="RefreshCategory-Sortby-select">
-              <option value="best-selling">Best Selling</option>
-              <option value="Featured">Featured</option>
-              <option value="Alphabetically-A-Z">Alphabetically,A-Z</option>
-              <option value="Alphabetically-Z-A">Alphabetically,Z-A</option>
-              <option value="price-low-to-high">Price, Low to High</option>
-              <option value="price-high-to-low">Price, High to Low</option>
-              <option value="Date-old-to-new">Date, old to new</option>
-              <option value="Date-new-to-old">Date, new to old</option>
-            </select>
-          </div>
+          <div className="d-flex justify-content-between">
+            <div className="RefreshCategory-Sortby">Sort by:</div>
+            <div>
+              <select className="RefreshCategory-Sortby-select">
+                <option value="best-selling">Best Selling</option>
+                <option value="Featured">Featured</option>
+                <option value="Alphabetically-A-Z">Alphabetically,A-Z</option>
+                <option value="Alphabetically-Z-A">Alphabetically,Z-A</option>
+                <option value="price-low-to-high">Price, Low to High</option>
+                <option value="price-high-to-low">Price, High to Low</option>
+                <option value="Date-old-to-new">Date, old to new</option>
+                <option value="Date-new-to-old">Date, new to old</option>
+              </select>
+            </div>
 
-          <div>product</div>
+            <div>product</div>
+          </div>
         </div>
-      </div>
       </div>
 
       <div className=" container-fluid">

@@ -23,7 +23,7 @@ const RefreshContextProvider = (props) => {
   // Save cart items to local storage whenever it changes
   useEffect(() => {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
-  },[cartItems]);
+  }, [cartItems]);
 
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
@@ -43,19 +43,19 @@ const RefreshContextProvider = (props) => {
     return totalCartItem;
   };
 
-    // Calculate total regular price
-    const totalRegularPrice = all_product_data.reduce((total, product) => {
-      if (cartItems[product.id] > 0) {
-        const regularPriceWithDollarSign = product.RegularPrice;
-        const regularPriceWithoutDollarSign = regularPriceWithDollarSign.replace(
-          "$",
-          ""
-        );
-        const regularPriceAsNumber = parseFloat(regularPriceWithoutDollarSign);
-        return total + regularPriceAsNumber * cartItems[product.id];
-      }
-      return total;
-    }, 0);
+  // Calculate total regular price
+  const totalRegularPrice = all_product_data.reduce((total, product) => {
+    if (cartItems[product.id] > 0) {
+      const regularPriceWithDollarSign = product.RegularPrice;
+      const regularPriceWithoutDollarSign = regularPriceWithDollarSign.replace(
+        "$",
+        ""
+      );
+      const regularPriceAsNumber = parseFloat(regularPriceWithoutDollarSign);
+      return total + regularPriceAsNumber * cartItems[product.id];
+    }
+    return total;
+  }, 0);
 
   return (
     <RefreshContext.Provider
