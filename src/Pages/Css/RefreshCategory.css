@@ -2,6 +2,7 @@
 /* css start for category page */
 .RefreshCategory-img{
     width: 100%;
+    object-fit: cover;
     
 }
 .RefreshCategory-banner{
@@ -116,6 +117,48 @@
     margin-right: 40px;   
     border: none;
 }
+.price-input{
+    width: 131.64px;
+}
+.price-input-wrap label {
+    font-size: 18px;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    color: var(--primary-color);
+  }
+  .price-input-wrap {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  .price-input:focus + label {
+    font-size: 13px;
+    color: var(--primary-color);
+    top: 5px;
+    left: 30px;
+    padding: 0 5px 0 5px;
+  }
+  .price-input {
+    height: 47px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin: 0 10px;
+    border: 1px solid var(--primary-opacity-color);
+    padding-bottom: 6px;
+    padding-top: 24px;
+  }
+  .price-input:hover{
+    border: 2px solid var(--primary-opacity-color);
+  }
+  .price-input:focus{
+    border: 2px solid var(--primary-color);
+    outline: none;
+  }
 /* filter css end ###########################################################*/
 
 

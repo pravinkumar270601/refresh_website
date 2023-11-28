@@ -168,6 +168,10 @@ ul li .menu-text:hover {
     height: 161px;
     max-height: 30%;
   }
+  .nav-menu{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* Css for desktop Navbar end *---------------------------------------------/
@@ -205,6 +209,9 @@ ul li .menu-text:hover {
   .offcanvas.offcanvas-top {
     height: 91px;
     max-height: 30%;
+  }
+  .nav-menu{
+    margin-left: 35px;
   }
 }
 /* Css for Mobile Navbar end */

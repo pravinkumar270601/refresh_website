@@ -64,9 +64,6 @@
   margin-top: 14px;
 }
 
-/* .carousel-img{
-    height: 600px;
-} */
 
 /* Css carousel End  ################################################################## */
 
@@ -128,6 +125,10 @@
     /* height:590px; */
     height: 90vh;
   }
+  .carousel-img{
+    object-fit: cover;
+ }
+
 }
 
 /* Css carousel desktop end  ################################################################## */
@@ -169,7 +170,10 @@
   }
   .carousel-img {
     height: 357px;
+    object-fit: cover;
   }
+
+
 }
 @media (max-width: 368px) {
   .carosel-content-3 h1 {

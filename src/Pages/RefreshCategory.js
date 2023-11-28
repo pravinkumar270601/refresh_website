@@ -100,18 +100,17 @@ const RefreshCategory = (props) => {
                 <li>
                   <div className="d-flex justify-content-between align-items-center RefreshCategory-price-from-to-box">
                     <div className="fromTo-text">$</div>
-                    <input
-                      type="number"
-                      className=" price-from"
-                      placeholder="From"
-                    />
-                    <div className=""></div>
+
+                    <div className="price-input-wrap">
+                      <input type="text" className="price-input" required />
+                      <label>From</label>
+                    </div>
+  
                     <div className="fromTo-text">$</div>
-                    <input
-                      type="number"
-                      className="price-to"
-                      placeholder="To"
-                    />
+                    <div className="price-input-wrap">
+                      <input type="text" className="price-input" required />
+                      <label>To</label>
+                    </div>
                   </div>
                 </li>
               </ul>

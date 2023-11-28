@@ -77,6 +77,7 @@
 .OurStory-ImgCart3-img-2 {
   max-height: 359px;
   width: 100%;
+  object-fit: cover;
 }
 
 /* css end for cart3 */
@@ -109,12 +110,14 @@
   .OurStory-img2 {
     width: 50%;
     max-height: 588px;
+    object-fit: cover;
   }
   .OurStory2-img1,
   .OurStory2-img2 {
     width: 50%;
     height: 588px;
     margin-top: 40px;
+    object-fit: cover;
   }
   .OurStory-img-div2 {
     position: relative;
@@ -188,9 +191,11 @@
   }
   .OurStory-ImgCart-img-2 {
     min-height: 452px;
+    object-fit: cover;
   }
   .OurStory-ImgCart2-img-2 {
     max-height: 329px;
+    object-fit: cover;
   }
   .OurStory-Imgcontainer3-2 {
     margin-left: 98px;
@@ -216,12 +221,14 @@
   .OurStory-img2 {
     width: 50%;
     height: 357px;
+    object-fit: cover;
   }
   .OurStory2-img1,
   .OurStory2-img2 {
     width: 50%;
     height: 357px;
     margin-top: 20px;
+    object-fit: cover;
   }
   .OurStory-content-div {
     padding: 42px 36.75px;
@@ -271,9 +278,11 @@
   }
   .OurStory-ImgCart-img-2 {
     min-height: 312px;
+    object-fit: cover;
   }
   .OurStory-ImgCart2-img-2 {
     min-height: 312px;
+    object-fit: cover;
   }
   .OurStory-Imgcontainer2-2 {
     margin: 0 15.75px;

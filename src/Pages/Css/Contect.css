@@ -140,6 +140,7 @@
   .Contect-img1 {
     max-height: 441px;
     width: 100%;
+    object-fit: cover;
   }
   .Contect-heading {
     font-size: 58px;
@@ -177,6 +178,8 @@
   .Contect-img1 {
     height: 357px;
     width: 100%;
+    object-fit: cover;
+
   }
   .Contect-content-div {
     padding: 42px 36.75px;

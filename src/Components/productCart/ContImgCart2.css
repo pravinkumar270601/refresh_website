@@ -73,6 +73,7 @@
   }
   .ContImgCart2-img {
     min-height: 425px;
+    object-fit: cover;
   }
   .ContImgCart2-cont-2 {
     margin-top: 65px;
@@ -81,6 +82,7 @@
   }
   .ContImgCart2-img-2 {
     min-height: 410px;
+    object-fit: cover;
   }
   .ContImgcontainer2-h1 {
     font-size: 57px;
@@ -108,9 +110,11 @@
   }
   .ContImgCart2-img {
     min-height: 312px;
+    object-fit: cover;
   }
   .ContImgCart2-img-2 {
     min-height: 312px;
+    object-fit: cover;
   }
   .ContImgcontainer2-h1 {
     font-size: 33px;

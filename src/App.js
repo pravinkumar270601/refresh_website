@@ -12,11 +12,13 @@ import Footer from "./Components/Footer/Footer";
 import OurStory from "./Pages/OurStory";
 import Blog from "./Pages/Blog";
 import Contect from "./Pages/Contect";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+      <ScrollToTop/>
         <nav className="nav">
           <Navbar />
         </nav>

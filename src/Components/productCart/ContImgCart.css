@@ -81,9 +81,11 @@
     }
     .ContImgCart-img{
         min-height: 563px;
+        object-fit: cover;
     }
     .ContImgCart-img-2{
         min-height: 370px;
+        object-fit: cover;
     }
     .ContImgCart-cont {
         margin-top: 100px;
@@ -118,9 +120,11 @@
 
     .ContImgCart-img{
         min-height: 312px;
+        object-fit: cover;
     }
     .ContImgCart-img-2{
         min-height: 312px;
+        object-fit: cover;
     }
 }
 

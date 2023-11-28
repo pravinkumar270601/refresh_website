@@ -122,7 +122,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="d-flex justify-content-center nav-menu">
+      <div className="nav-menu">
         <nav className="navbar navbar-expand-lg ">
           <div className="">
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
