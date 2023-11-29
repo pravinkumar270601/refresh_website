@@ -155,8 +155,8 @@ const OurStory = () => {
               Shop the internet's favorite products.
             </h1>
             <div className="text-center">
-              <button className="OurStory-button2 ">For body</button>
-              <button className="OurStory-button2 ">For hair</button>
+              <button className="OurStory-button2  animate-button ">For body</button>
+              <button className="OurStory-button2  animate-button ">For hair</button>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <div className="serch-icon-div">
           <FaSistrix
-            className="serch-icon"
+            className="serch-icon animate-icon"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasTop"
@@ -73,7 +73,7 @@ const Navbar = () => {
           aria-controls="offcanvasWithBothOptions"
           className="cart-icon-div"
         >
-          <IoBagHandleOutline className="cart-icon" />
+          <IoBagHandleOutline className="cart-icon animate-icon" />
           <div className="nav-cart-count">{getTotalCartItems()}</div>
         </div>
         <div

@@ -83,11 +83,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-icon-div text-center">
-      <AiOutlineTwitter className="footer-icon"/>
-      <AiFillFacebook className="footer-icon"/>
-      <AiOutlineInstagram className="footer-icon" />
-      <BiLogoTiktok className="footer-icon"/>
-      <BiLogoYoutube className="footer-icon"/>
+      <AiOutlineTwitter className="footer-icon animate-icon" type="button"/>
+      <AiFillFacebook className="footer-icon animate-icon" type="button"/>
+      <AiOutlineInstagram className="footer-icon animate-icon" type="button" />
+      <BiLogoTiktok className="footer-icon animate-icon" type="button"/>
+      <BiLogoYoutube className="footer-icon animate-icon" type="button"/>
       </div>
       <hr className="footer-hr-line"/>
       <div className="footer-copyright text-center">

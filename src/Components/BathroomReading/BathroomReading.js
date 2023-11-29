@@ -28,7 +28,7 @@ const BathroomReading = () => {
         </div>
       </div>
       <div className="text-center">
-      <button type="button" class="btn btn-primary BathroomReading-button ">view all</button>
+      <button type="button" class="btn btn-primary BathroomReading-button animate-button">view all</button>
       </div>
     </div>
   );

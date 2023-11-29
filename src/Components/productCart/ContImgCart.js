@@ -21,7 +21,7 @@ const ContImgCart = (props) => {
                 <p className="card-text ContImgcontainer-p">
                 {props.description1}
                 </p>
-                <button className="ContImgcontainer-button">{props.button1}</button>
+                <button className="ContImgcontainer-button animate-button">{props.button1}</button>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const ContImgCart = (props) => {
                 <p className="card-text ContImgcontainer-p-2">
                 {props.description2}
                 </p>
-                <button className="ContImgcontainer-button-2">{props.button2}</button>
+                <button className="ContImgcontainer-button-2 animate-button">{props.button2}</button>
               </div>
             </div>
           </div>
