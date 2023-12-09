@@ -101,7 +101,7 @@ const ProductDisplay = (props) => {
                 <div className="text-center">
                   <div
                     type="button"
-                    class="btn btn-primary total-price-cart-item-btn"
+                    class="btn btn-primary total-price-cart-item-btn animate-button"
                   >
                     Check out
                   </div>
