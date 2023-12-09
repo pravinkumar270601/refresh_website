@@ -22,7 +22,7 @@ const CartItem = () => {
             const regularPriceWithoutDollarSign = regularPriceWithDollarSign.replace('$', '');
             const regularPriceAsNumber = parseFloat(regularPriceWithoutDollarSign);
             return (
-              <div className="d-flex justify-content-between">
+              <div className="d-flex ">
                 <div>
                   <img src={e.src1} alt="" className="CartItem-image" />
                 </div>
