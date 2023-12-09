@@ -22,7 +22,7 @@ const CartItem = () => {
             const regularPriceWithoutDollarSign = regularPriceWithDollarSign.replace('$', '');
             const regularPriceAsNumber = parseFloat(regularPriceWithoutDollarSign);
             return (
-              <div className="d-flex">
+              <div className="d-flex justify-content-between">
                 <div>
                   <img src={e.src1} alt="" className="CartItem-image" />
                 </div>
@@ -33,7 +33,7 @@ const CartItem = () => {
                   <div>
                     <p className="CartItem-RegularPrice">{e.RegularPrice}</p>
                   </div>
-                  <div className="d-flex justify-content-between CartItem-quantity-remove-div ">
+                  <div className="d-flex justify-content-between align-items-center CartItem-quantity-remove-div ">
                     <div className="d-flex  justify-content-between CartItem-plus-minuse-div">
                       <div>
                         <AiOutlineLine type="button" 

@@ -3,18 +3,7 @@
   body {
     padding-top: 160px;
   }
-  .animate-icon{
-    transition: 0.1s ease all;
-  }
-  .animate-icon:hover{
-    transform: scale(1.05);
-  }
-  .animate-button{
-    transition: 0.1s ease all;
-  }
-  .animate-button:hover{
-    transform: scale(1.02);
-  }
+
   .nav {
     width: 100%;
     position: fixed;
@@ -23,6 +12,18 @@
     z-index: 6;
     /* transition: transform 0.2s; */
   }
+}
+.animate-icon {
+  transition: 0.1s ease all;
+}
+.animate-icon:hover {
+  transform: scale(1.05);
+}
+.animate-button {
+  transition: 0.1s ease all;
+}
+.animate-button:hover {
+  transform: scale(1.02);
 }
 /* css for nav end*/
 /* css for all cart page start */
@@ -37,7 +38,7 @@
   font-weight: 700;
 }
 .total-price-cart-item {
-  font-size: 19px;
+  font-size: 18.9px;
   color: var(--primary-opacity-color-2);
 }
 .total-price-cart-item-p {
@@ -47,7 +48,7 @@
   margin-bottom: 10px;
 }
 .total-price-cart-item-btn {
-  width: 330.5px;
+  width: 100%;
   border-radius: 25px;
   padding-top: 10px;
   padding-bottom: 10px;

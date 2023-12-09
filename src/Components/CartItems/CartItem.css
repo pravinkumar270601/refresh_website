@@ -1,51 +1,72 @@
 /* css for cartItem start  */
-.CartItem-image{
-    width: 105px;
-    height: 110px;
-    padding: 5px 0;
-    margin-top: 18px;
-    object-fit: cover;
-    
+.CartItem-image {
+  height: 110px;
+  padding: 5px 0;
+  margin-top: 18px;
+  object-fit: cover;
 }
-.CartItem-heading{
-    font-size: 16.5px;
-    font-weight: 700;
-    color:var(--primary-color) ;
+.CartItem-heading {
+  font-weight: 700;
+  color: var(--primary-color);
 }
-.CartItem-content-center-full-div{
-    width: 186px;
-    padding: 21px 0 0 30px;
-
+.CartItem-content-center-full-div {
+  width: 186px;
+  padding: 21px 0 0 30px;
 }
-.CartItem-RegularPrice{
-    color: var( --primary-opacity-color-2);
+.CartItem-RegularPrice {
+  color: var(--primary-opacity-color-2);
 }
-.CartItem-plus-minuse-div{
-    width: 120px;
-    border: 1px solid var( --primary-opacity-color-2) ;
-    border-radius: 20px;
-    padding: 8px;
+.CartItem-plus-minuse-div {
+  border: 1px solid var(--primary-opacity-color-2);
 }
-.CartItem-removeFromCart{
-    color:var(--primary-color) ;
-    font-size: 16.6px;
+.CartItem-removeFromCart {
+  color: var(--primary-color);
+  font-size: 16.6px;
 }
-.CartItem-total-price{
-    color:var(--primary-color) ;
-    font-size: 19px;
-    padding-top: 20px;
-    padding-left: 20px;
+.CartItem-total-price {
+  color: var(--primary-color);
+  padding-top: 20px;
+  padding-left: 20px;
 }
-.CartItem-prct-tol{
-    font-size: 11.5px;
-    color: rgb(14, 27, 77,.4); ;
-    font-weight:700;
+.CartItem-prct-tol {
+  font-size: 11.5px;
+  color: rgb(14, 27, 77, 0.4);
+  font-weight: 700;
 }
 /* css for cartItem end  */
 
-@media (max-width: 991px) {
-    .CartItem{
-        width: 310px;
-    }
+@media (min-width: 419px) {
+  .CartItem-plus-minuse-div {
+    width: 120px;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  .CartItem-total-price {
+    font-size: 19px;
+  }
+  .CartItem-heading {
+    font-size: 16px;
+  }
+}
 
+@media (max-width: 418px) {
+  .CartItem-removeFromCart {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .CartItem-plus-minuse-div {
+    width: 90px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  .CartItem-image {
+    width: 90px;
+  }
+  .CartItem-heading {
+    font-size: 15.5px;
+  }
+  .CartItem-total-price {
+    font-size: 17.5px;
+  }
 }

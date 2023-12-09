@@ -27,7 +27,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <FaBars className="navbar-toggler-icon"></FaBars>
+            <FaBars className="navbar-toggler-icon animate-icon"></FaBars>
           </button>
         </div>
         <div className="serch-icon-div">
@@ -53,7 +53,7 @@ const Navbar = () => {
               </div>
               <IoCloseOutline
                 type="button"
-                class="nav-btn-close"
+                class="nav-btn-close "
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></IoCloseOutline>

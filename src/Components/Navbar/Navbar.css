@@ -19,6 +19,11 @@
   padding-top: 20px;
   width: 100%;
 }
+.nav-hr{
+  margin: 0;
+  color: white;
+  opacity: 1;
+}
 
 .logo-img {
   width: 120px;
